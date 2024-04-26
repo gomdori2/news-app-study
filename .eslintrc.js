@@ -1,31 +1,3 @@
-# 프로젝트 생성 - API 연동 후 git push
-
-- `npx create-react-app ./`
-- `npm i normalize.css`
-- `npm i @emotion/react`
-- `npm i @emotion/styled`
-
-- .prettierrc.json
-
-```js
-{
-  "singleQuote": false,
-  "semi": true,
-  "useTabs": false,
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "printWidth": 80,
-  "arrowParens": "avoid",
-  "endOfLine": "auto"
-}
-```
-
-- `npm install eslint --dev`
-- `npm install eslint-config-react-app --save-dev`
-- `npx eslint --init`
-- `npm install eslint-config-prettier --save-dev`
-
-```js
 module.exports = {
   env: {
     browser: true,
@@ -61,8 +33,3 @@ module.exports = {
     "no-unused-vars": "off",
   },
 };
-```
-
-- `npm install @babel/plugin-proposal-private-property-in-object --dev`
-
-- `npm install react-router-dom`
