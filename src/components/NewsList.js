@@ -20,13 +20,13 @@ const NewsListStyle = styled.div`
 `;
 
 // 초기 데이터 객체
-const sampleArticle = {
-  title: "제목",
-  description: "내용",
-  url: "https://google.com",
-  urlToImage: "https://via.placeholder.com/160",
-  publishedAt: "2024-04-26",
-};
+// const sampleArticle = {
+//   title: "제목",
+//   description: "내용",
+//   url: "https://google.com",
+//   urlToImage: "https://via.placeholder.com/160",
+//   publishedAt: "2024-04-26",
+// };
 
 const NewsList = ({ category }) => {
   const [articles, setArticles] = useState(null);
